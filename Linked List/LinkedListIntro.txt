@@ -1,0 +1,19 @@
+Array limitations:
+
+1) fixed size
+2) Insertion: even in array list:
+    its an array jo baar baar bade size ka naya array banake elements copy karta hai, fir add karta hai.
+3) Contiguous memory allocation: so much continuous memory might not be available-> need for new ds w/o contiguous memory = LINKED list
+
+LL links 2 non contiguous memory locations. 
+Each nodes has value and address (of next node).
+Last node has address null. 
+
+Limitations of linked list: 
+
+- to get, the time complexity is O(n)
+-in arrays it is O(1)
+
+to set index: its again O(n)
+ but insertion n deletion is faster n better
+
