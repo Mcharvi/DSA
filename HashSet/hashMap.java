@@ -24,6 +24,8 @@ public class hashMap {
         //other methods: map.remove()-> when u remove key and value both get removed, map.containsKey(), map.containsValue()
 
         System.out.println(map.get("Charvi"));
+        //in get we put key and get the value
+        
     }
     
 }
