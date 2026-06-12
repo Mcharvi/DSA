@@ -9,6 +9,9 @@ public class basicSet {
 
         //insert O(1)
 
+        // In hashset, one element can only occur once- NO DUPLICATES, no change will come, it wont get added again.
+        
+
 
         set.add(20);
         set.add(100);
@@ -31,6 +34,9 @@ public class basicSet {
 
        }
        System.out.println();
+
+       //to delete full set: 
+
        set.clear();
        System.out.println(set);
 
